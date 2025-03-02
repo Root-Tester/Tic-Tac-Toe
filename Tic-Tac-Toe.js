@@ -147,7 +147,7 @@ function player_winOr_Lose(c1,c2,c3){
             document.getElementById(`b${i}`).style.color='#0fef0f';
         }
     }
-    document.Onclick = restart();
+    document.onclick = restart();
 }
 
 
