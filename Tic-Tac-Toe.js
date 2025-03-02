@@ -22,7 +22,7 @@ function play(a,b){
     if(turn==0 && WorL==undefined){
         a.value='X';
         a.disabled=true;
-        a.style.color='#f0ec09f3';
+        a.style.color='#0001ff';
         cell[b]='X';
         board[b]='X';
         turn=1;
