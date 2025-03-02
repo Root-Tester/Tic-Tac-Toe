@@ -76,7 +76,7 @@ function winOrDraw(){
                 && (cell[6] !=cell[7]  || cell[7] !=cell[8] ) && (cell[0] !=cell[3]  || cell[3] !=cell[6] )
                 && (cell[1] !=cell[4]  || cell[4] !=cell[7] )&& (cell[2] !=cell[5]  || cell[5] !=cell[8] )
                 && (cell[0] !=cell[4]  || cell[4] !=cell[8] ) && (cell[2] !=cell[4]  || cell[4] !=cell[6] )){ 
-                    document.getElementById('result').innerHTML='<p> Draw !</p> <button class="reset" onclick="restart()" style="height:30px; width: 40px" autofocus> OK </button>'
+                    document.getElementById('result').innerHTML='<p> Draw !</p> <button class="reset" onclick="restart()" style="height:30px; width: 40px" autofocus> OK </button>';
                     WorL=0;
                 }
         }   
