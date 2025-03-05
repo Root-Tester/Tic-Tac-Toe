@@ -47,7 +47,7 @@ function play(a,b){
            showTurn();
            winOrDraw();
            board[y]='O';
- }, 500);
+ }, 200);
     }
 }
 
