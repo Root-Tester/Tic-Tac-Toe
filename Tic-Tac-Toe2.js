@@ -45,7 +45,7 @@ function play(self, index) {
     setTimeout(isGameOver, 0.1);
 
     if (opponant === 'bot') {
-       setTimeOut(makeMoveByBot, 1) ;
+       setTimeOut(makeMoveByBot(), 1) ;
     }
 
 }
