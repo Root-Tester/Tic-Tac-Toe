@@ -64,8 +64,8 @@
 
 #board-container{
     max-width: 650px;
-    width:calc(min(76vh,76vw));
-    height: calc(min(76vh,76vw));
+    width:calc(min(67vh,67vw));
+    height: calc(min(67vh,67vw));
     max-height: 650px;
     background-color: #26058054;
     display: grid;
@@ -78,8 +78,8 @@
 
 .cell{
     background-color: #f3f3f3;
-    width: calc(min(25vw,25vh,216px));
-    height: calc(min(25vw,25vh,216px));
+    width: calc(min(22vw,22vh,216px));
+    height: calc(min(22vw,22vh,216px));
     font-size: calc(min(10vw,10vh,150px)); 
     text-align: center;
 }
