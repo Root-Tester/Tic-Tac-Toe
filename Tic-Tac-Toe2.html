@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game : Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="Tic-Tac-Toe2.css">
+    <script src="Tic-Tac-Toe2.js"></script>
+</head>
+<body>
+    <div id="home-section">
+        <div id="headline">
+            <h1 id="title"> Tic-Tac-Toe </h1>
+        </div>
+
+        <button id="computer" value="bot" onclick="initGame(this)">Vs. Computer</button>
+        <button id="human" value="human" onclick="initGame(this)">2 Players</button>
+    </div>
+
+    <div id="game-section">
+        <div id="board-container">
+
+        </div>
+
+        <div id="controles">
+            <button id="reset" onclick="reset(true)"> Reset </button>
+            <button id="exit" onclick="exit()"> Exit </button>
+        </div>
+    </div>
+</body>
+</html>
