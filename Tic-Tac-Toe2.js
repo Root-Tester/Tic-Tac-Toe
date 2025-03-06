@@ -42,7 +42,7 @@ function play(self, index) {
         turn = true;
     }
 
-    setTimeout(isGameOver,1);
+    setTimeout(isGameOver,0);
 
     if (opponant === 'bot') {
        makeMoveByBot();
