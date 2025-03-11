@@ -19,6 +19,7 @@
     background-image: linear-gradient(118deg,#0a0b5a3b,#42050542), url("Tic-Tac-Toc-Home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #title{
@@ -51,6 +52,7 @@
     background-image: linear-gradient(115deg,#5c07588e,#2f065598), url("Tic-Tac-Toe-Game.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #reset,#exit{
