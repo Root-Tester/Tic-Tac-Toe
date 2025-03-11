@@ -63,6 +63,9 @@
 - **styles.css:** Defines the layout and appearance, including the responsive design rules for different screen sizes.
 - **script.js:** Contains the logic for dynamically creating the game board, player moves, AI behavior, win/tie detection, and restarting the game.
 
+## Demo
+
+You can check out a live demo of this Tic-Tac-Toe game [here](https://marcft.github.io/tic-tac-toe/).
 
 
 
