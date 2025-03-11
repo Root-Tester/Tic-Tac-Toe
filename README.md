@@ -65,7 +65,7 @@
 
 ## Demo
 
-You can check out a live demo of this Tic-Tac-Toe game [here]([(https://root-tester.github.io/Tic-Tac-Toe/Tic-Tac-Toe]).
+You can check out a live demo of this Tic-Tac-Toe game [here](https://root-tester.github.io/Tic-Tac-Toe/Tic-Tac-Toe).
 
 
 
