@@ -19,6 +19,10 @@ function initGame(self) {
         }
     }
 
+    if(opponant===human){
+        window.alert("Player1 will be use 'X'  & Player 2 will use 'O' ");
+    }
+    
     for (let i = 0; i < 9; i++) {
         game.innerHTML += `<button id="b${i}" class="cell" onclick="play(this,${i})" value=""></button>`
         document.getElementById(`b${i}`).disabled = false;
