@@ -83,3 +83,14 @@
     font-size: calc(min(10vw,10vh,150px)); 
     text-align: center;
 }
+
+@media only screen and (max-width:615px){
+    #title{
+        font-size: 2rem;
+    }
+
+    #computer,#human{
+        height: 55px;
+        font-size: 1.3rem;
+    }
+}
