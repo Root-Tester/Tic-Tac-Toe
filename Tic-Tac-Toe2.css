@@ -38,6 +38,7 @@ a{
     font-size: 18px;
     display: block;
     margin: 15px auto 0px;
+    text-decoration:none;
 }
 
 
@@ -99,5 +100,6 @@ a{
     #computer,#human,a #instruction{
         height: 55px;
         font-size: 1.3rem;
+        text-decoration:none;
     }
 }
