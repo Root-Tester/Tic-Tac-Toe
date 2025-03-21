@@ -2,8 +2,12 @@
     box-sizing: border-box;
     font-family: sans-serif, Arial, Helvetica;
     line-height: 1.4;
-    text-decoration:none;
+    
 }
+
+a{
+    text-decoration:none;
+} 
 
 /* ...............Home Page Styling..............................   */
 
