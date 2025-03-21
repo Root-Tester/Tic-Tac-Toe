@@ -26,7 +26,7 @@
     margin: 10px auto 30px;
 }
 
-#computer,#human{
+#computer,#human, #instruction{
     width: 50%;
     max-width: 300px;
     height: 50px;
@@ -91,7 +91,7 @@
         font-size: 2rem;
     }
 
-    #computer,#human{
+    #computer,#human, #instruction{
         height: 55px;
         font-size: 1.3rem;
     }
