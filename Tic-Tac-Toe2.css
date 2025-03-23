@@ -23,7 +23,7 @@ a{
     background-color: #612c01fa;
     background-image: linear-gradient(118deg,#0a0b5a3b,#42050542), url("Tic-Tac-Toc-Home.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
 }
 
@@ -57,7 +57,7 @@ a{
     background-color: #04044d;
     background-image: linear-gradient(115deg,#5c07588e,#2f065598), url("Tic-Tac-Toe-Game.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
 }
 
