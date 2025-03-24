@@ -12,7 +12,6 @@
 - **Tie Detection:** If all spaces on the board are filled and no player has won, the game ends in a tie.
 - **Reset Option:** The game provides an option to reset the board and start a new game.
 - **Intuitive User Interface:** The game is easy to play with simple click/tap interactions.
-- 
 
 ## Game Rules
 - Players alternate turns.
