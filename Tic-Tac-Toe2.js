@@ -46,10 +46,10 @@ function play(self, index) {
         turn = true;
     }
 
-    setTimeout(isGameOver,0);
+    setTimeout(isGameOver,1);
 
     if (opponant === 'bot') {
-       makeMoveByBot();
+       setTimeout(makeMoveByBot,800);
     }
 
 }
@@ -90,7 +90,7 @@ function isGameOver() {
 
             window.onkeydown = reset(false);
             window.onclick = reset(false);
-        }, 5);
+        }, 8);
 
     } else if (result.drawCondition) {
 
@@ -232,7 +232,7 @@ function reset(restart) {
                 }
             }
         }
-    },5);
+    },8);
 }
 
 function exit() {
