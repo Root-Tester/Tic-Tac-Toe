@@ -20,7 +20,7 @@
 - A player wins by getting three of their marks in a row (either horizontally, vertically, or diagonally).
 - The game ends in a tie if the board is full and no player has won.
 - After a win or tie, the game will prompt players to restart after click the window.
-- 
+
 
 ## Gameplay
 
