@@ -141,6 +141,7 @@ function makeMoveByBot() {
         box.disabled = true;
         board[move] = 'O';
         turn = true;
+        isGameOver();
     }
 }
 
