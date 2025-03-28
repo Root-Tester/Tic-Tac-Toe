@@ -62,6 +62,34 @@
 - **styles.css:** Defines the layout and appearance, including the responsive design rules for different screen sizes.
 - **script.js:** Contains the logic for dynamically creating the game board, player moves, AI behavior, win/tie detection, and restarting the game.
 
+
+## License
+
+This project is licensed under the Apache License 2.0. You are free to use, modify, and distribute the code with the following conditions:
+
+-  You must not copy the entire project and display it as your own.
+
+-  You must include the original license and give credit to the authors.
+
+-  If you modify the code, you must provide a clear notice of the changes.
+
+For full license details, visit the [Apache License 2.0](LICENSE)
+
+
+## Contributing
+
+Feel free to contribute! To contribute:
+
+1. Fork the repository.
+
+2. Create a new branch for your changes.
+
+3. Make your changes.
+
+4. Open a pull request.
+
+We appreciate your contributions!
+
 ## Demo
 
 You can check out a live demo of this Tic-Tac-Toe game [here](https://root-tester.github.io/Tic-Tac-Toe/Tic-Tac-Toe).
