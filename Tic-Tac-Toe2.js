@@ -1,3 +1,11 @@
+/*!
+ * Palindrome Checker Web App
+ * Copyright (c) 2025 Tushar Kumar Sahu
+ * Licensed under the Apache License 2.0
+ * See LICENSE file for more information.
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
 const board = new Array(9).fill("");
 let opponant = null;
 let home = null;
