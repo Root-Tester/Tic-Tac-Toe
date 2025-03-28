@@ -1,3 +1,10 @@
+<!-- !
+ * Palindrome Checker Web App
+ * Copyright (c) 2025 Tushar Kumar Sahu
+ * Licensed under the Apache License 2.0
+ * See LICENSE file for more information.
+ * http://www.apache.org/licenses/LICENSE-2.0
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,25 +26,33 @@
     <script src="Tic-Tac-Toe2.js"></script>
 </head>
 <body>
-    <div id="home-section">
-        <div id="headline">
-            <h1 id="title"> Tic-Tac-Toe </h1>
+    <main>
+        <div id="home-section">
+            <div id="headline">
+                <h1 id="title"> Tic-Tac-Toe </h1>
+            </div>
+
+            <button id="computer" value="bot" onclick="initGame(this)">Vs. Computer</button>
+            <button id="human" value="human" onclick="initGame(this)">2 Players</button>
+            <a href="https://root-tester.github.io/Tic-Tac-Toe/"><button id="instruction">Instructions</button></a>
         </div>
 
-        <button id="computer" value="bot" onclick="initGame(this)">Vs. Computer</button>
-        <button id="human" value="human" onclick="initGame(this)">2 Players</button>
-        <a href="https://root-tester.github.io/Tic-Tac-Toe/"><button id="instruction">Instructions</button></a>
-    </div>
+        <div id="game-section">
+            <div id="board-container">
 
-    <div id="game-section">
-        <div id="board-container">
+            </div>
 
+            <div id="controles">
+                <button id="reset" onclick="reset(true)"> Reset </button>
+                <button id="exit" onclick="exit()"> Exit </button>
+            </div>
         </div>
-
-        <div id="controles">
-            <button id="reset" onclick="reset(true)"> Reset </button>
-            <button id="exit" onclick="exit()"> Exit </button>
-        </div>
-    </div>
+    </main>
+    <footer class="footer">
+        <p>
+            Palindrome Checker Web App Copyright (c) 2025
+        </p>
+        <p>This project is licensed under the <a href="LICENSE" target="_blank">Apache License 2.0</a>.</p>
+    </footer>
 </body>
 </html>
