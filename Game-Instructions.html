@@ -1,0 +1,122 @@
+<!-- !
+ * Tic-Tac-Toe Game Web App
+ * Copyright (c) 2025 Tushar Kumar Sahu
+ * Licensed under the Apache License 2.0
+ * See LICENSE file for more information.
+ * http://www.apache.org/licenses/LICENSE-2.0
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+</head>
+<body>
+    <h1>Welcome to the Tic-Tac-Toe wiki!</h1>
+
+    <h2>Tic Tac Toe Game</h2>
+
+    <h3>Introduction</h3>
+    <p>
+        Tic Tac Toe is a classic two-player game where players alternate marking spaces in a 3x3 grid. The objective is to place three of your marks (either "X" or "O") in a horizontal, vertical, or diagonal row before your opponent does.
+    </p>
+
+    <h3>Features</h3>
+    <ul>
+        <li><strong>Two-player Mode:</strong> Players can take turns to play as "X" or "O."</li>
+        <li><strong>AI Mode:</strong> Play against a computer opponent, with the AI making moves based on predefined logic.</li>
+        <li><strong>Win Detection:</strong> The game automatically checks for a winner after each move, detecting horizontal, vertical, and diagonal winning conditions.</li>
+        <li><strong>Tie Detection:</strong> If all spaces on the board are filled and no player has won, the game ends in a tie.</li>
+        <li><strong>Reset Option:</strong> The game provides an option to reset the board and start a new game.</li>
+        <li><strong>Intuitive User Interface:</strong> The game is easy to play with simple click/tap interactions.</li>
+    </ul>
+
+    <h3>Game Rules</h3>
+    <ul>
+        <li>Players alternate turns.</li>
+        <li>Player 1 is assigned "X" and Player 2 is assigned "O."</li>
+        <li>A player wins by getting three of their marks in a row (either horizontally, vertically, or diagonally).</li>
+        <li>The game ends in a tie if the board is full and no player has won.</li>
+        <li>After a win or tie, the game will prompt players to restart after clicking the window.</li>
+    </ul>
+
+    <h3>Gameplay</h3>
+    <h4>1. Starting a Game:</h4>
+    <ul>
+        <li>Upon launching the game, the player needs to select the mode: 2-player mode or Vs. Computer (if they want to play with AI). After this, the 3x3 grid will be displayed.</li>
+        <li>Player 1 will go first and place "X" on the grid.</li>
+    </ul>
+
+    <h4>2. Making a Move:</h4>
+    <ul>
+        <li>Players click on an empty cell to place their mark (either "X" or "O").</li>
+        <li>The game will check if the move results in a win or tie.</li>
+    </ul>
+
+    <h4>3. Winning the Game:</h4>
+    <ul>
+        <li>The game will check if any player has succeeded in getting three marks in a row after each move.</li>
+        <li>If a player wins, the game will display a message announcing the winner.</li>
+    </ul>
+
+    <h4>4. Tie Game:</h4>
+    <ul>
+        <li>If all cells are filled and no player has won, the game will announce a tie.</li>
+    </ul>
+
+    <h4>5. Restarting the Game:</h4>
+    <ul>
+        <li>After a game concludes, the player needs to tap or click any key to restart the game, resetting the grid for a new game.</li>
+    </ul>
+
+    <h3>Technical Details</h3>
+
+    <h4>Game Logic</h4>
+    <p>The game checks for a win or tie after every move by:</p>
+    <ul>
+        <li>Checking all rows, columns, and diagonals for three identical marks.</li>
+        <li>If a player places their mark in a winning position, the game ends and declares the winner.</li>
+        <li>If all cells are filled without a winner, the game ends in a tie.</li>
+    </ul>
+
+    <h4>User Interface (UI)</h4>
+    <ul>
+        <li><strong>3x3 Grid:</strong> The board consists of 9 cells, with each cell initially empty.</li>
+        <li><strong>Buttons:</strong> Players can click on any empty cell to place their mark.</li>
+        <li><strong>Messages:</strong> After each game, the UI displays whether the game was won or tied.</li>
+        <li><strong>Responsive Layout:</strong> The game layout dynamically adjusts based on the screen size, ensuring optimal playability on any device.</li>
+    </ul>
+
+    <h4>Technologies Used</h4>
+    <ul>
+        <li><strong>HTML:</strong> Contains the structure of the game, including the 3x3 grid container where JavaScript dynamically generates the grid.</li>
+        <li><strong>CSS:</strong> Defines the layout and appearance, including the responsive design rules for different screen sizes.</li>
+        <li><strong>JavaScript:</strong> Contains the logic for dynamically creating the game board, player moves, AI behavior, win/tie detection, and restarting the game.</li>
+    </ul>
+
+    <h3>License</h3>
+    <p>This project is licensed under the Apache License 2.0. You are free to use, modify, and distribute the code with the following conditions:</p>
+    <ul>
+        <li>You must not copy the entire project and display it as your own.</li>
+        <li>You must include the original license and give credit to the authors.</li>
+        <li>If you modify the code, you must provide a clear notice of the changes.</li>
+    </ul>
+    <p>For full license details, visit the <a href="LICENSE">Apache License 2.0</a></p>
+
+    <h3>Contributing</h3>
+    <p>Feel free to contribute! To contribute:</p>
+    <ol>
+        <li>Fork the repository.</li>
+        <li>Create a new branch for your changes.</li>
+        <li>Make your changes.</li>
+        <li>Open a pull request.</li>
+    </ol>
+    <p>We appreciate your contributions!</p>
+
+    <h3>Demo</h3>
+    <p>You can check out a live demo of this Tic-Tac-Toe game <a href="https://root-tester.github.io/Tic-Tac-Toe/">here</a>.</p>
+
+</body>
+</html>
