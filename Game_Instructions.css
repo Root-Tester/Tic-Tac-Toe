@@ -27,7 +27,7 @@
    main{
       width:900px;
       max-width:100vw;
-      height:80vh;
+      height:70vh;
       background-color:#04044d5d;
       padding:10px;
       margin-top:10vh;
@@ -35,11 +35,11 @@
       margin-left:auto;
       margin-right:auto;
       overflow-y:scroll;
+      overflow-x:hidden;
    } 
 
   .footer{
      position:fixed;
-     z-index:3;
      width:100%;
      bottom:0;
      left:0;
