@@ -15,7 +15,7 @@
    body{
       display:flex;
       flex-direction:column;
-      justify-content:space-around;
+      justify-content:space-between;
       align-items:center;
       width:calc(100vw);
       height:calc(100vh);
@@ -47,7 +47,7 @@
 
   .footer{
      width:100%;
-     flex:calc(20vh);
+     flex:calc(30vh);
      line-height:0.5;
      font-size:0.5rem;
      margin:0px;
