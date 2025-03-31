@@ -43,6 +43,8 @@
       display:block;
       margin:auto;
       text-align:center;
+      position:sticky;
+      top:0;
    } 
 
 
