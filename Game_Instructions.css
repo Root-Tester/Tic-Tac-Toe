@@ -54,7 +54,10 @@
    } 
 
  h3,h4,p,ul,ol{
-      margin:10px;
+      margin-left:15px;
+      margin-right:15px;
+      margin-top:5px;
+      margin-bottom:5px;
  }
 
   .footer{
