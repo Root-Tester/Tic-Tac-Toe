@@ -31,12 +31,13 @@
       height:calc(60vh);
       max-width:100%;
       background-color:#04044d5d;
-      padding:10px;
       margin-left:auto;
       margin-right:auto;
       margin-top:calc(10vh);
       margin-bottom:calc(10vh);
       overflow:auto;
+      padding:0;
+
    } 
 
    h1{
@@ -45,9 +46,12 @@
       text-align:center;
       position:sticky;
       top:0;
-      background-color:#04044d;
+      background-color:#04044ded;
    } 
 
+ .main-content{
+      margin:10px;
+ }
 
   .footer{
      width:100%;
