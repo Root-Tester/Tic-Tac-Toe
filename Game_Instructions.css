@@ -57,3 +57,25 @@
      text-align: center;
      padding:2px 20px 2px 20px;
    }
+
+@media only screen and (max-height : 700px){
+
+      div{
+            overflow:scroll;
+      } 
+
+      main{
+            height:auto;
+            margin-bottom:10px;
+            margin-top:10px;
+      }
+
+      footer{
+            margin-top:10px;
+            margin-bottom:0px;
+            heiglht:auto;
+            padding-top:5px;
+
+      } 
+} 
+
