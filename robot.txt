@@ -1,5 +1,6 @@
 User-agent: *
+Disallow: /
 Allow: https://root-tester.github.io/Tic-Tac-Toe/
-Disallow: https://root-tester.github.io/
+Allow: https://root-tester.github.io/Tic-Tac-Toe/Game-Instructions.html
 
-Sitemap: https://root-tester.github.io/Tic-Tac-Toe/
+Sitemap: https://root-tester.github.io/Tic-Tac-Toe/Sitemap.xml
