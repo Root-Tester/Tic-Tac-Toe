@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage (Tic-Tac-Toe Game) -->
+    <url>
+        <loc>https://root-tester.github.io/Tic-Tac-Toe/</loc>
+        <priority>1.00</priority>
+    </url>
+    
+    <!-- Game Instructions Page -->
+    <url>
+        <loc>https://root-tester.github.io/Tic-Tac-Toe/instructions.html</loc>
+        <priority>0.80</priority>
+    </url>
+</urlset>
